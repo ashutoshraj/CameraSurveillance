@@ -9,5 +9,5 @@ Packages Required:
 For Email Configuration:
 
 Edit in Python script
-fromaddr = "*****************"
-toaddr = "*******************"
+fromaddr = "*****************" (Base Station Email Account)
+toaddr = "*******************" (Remotelocation Email Account)

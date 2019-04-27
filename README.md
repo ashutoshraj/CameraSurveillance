@@ -14,6 +14,7 @@ sudo pip install opencv-python
 
 ```bash
 python CameraSurveillance_email_Main.py
+```
 
 ## Technical Details
 ```text

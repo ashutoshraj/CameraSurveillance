@@ -85,7 +85,10 @@ def email_sending():
  
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login(fromaddr, "970969!%#(")
+    '''
+    Password of the email mentioned.
+    '''
+    server.login(fromaddr, "*************") 
     text = msg.as_string()
     server.sendmail(fromaddr, toaddr, text)
     server.quit()
